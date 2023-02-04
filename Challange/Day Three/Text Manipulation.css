@@ -1,0 +1,21 @@
+TEXT-DECORATION
+
+.link {
+      text-decoration: none; 
+                       underline;
+                       line-through;
+                       overline;
+}
+
+TEXT-TRANSFORM
+Body {
+     lowercase;
+     uppercase;
+     capitalize;
+}
+TEXT-ALIGN
+
+Body {
+      text-align: center;
+                  justify;
+}              

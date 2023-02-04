@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Color Texting</title>
+</head>
+<body>
+	<h1 id="title">My Website</h1>
+	<p class="para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<form>
+		<ul class="list-item">
+			<li class="list-item">reprehenderit in voluptate</li>
+		    <ol>
+				<li class="list-item">deserunt mollit anim id est laborum</li>
+		    </ol>
+	    </ul>
+	</form>
+	<h2 class="subtitle">About-Us</h2>
+	<p class="para-text">consectetur adipisicing elit, sed do eiusmod</p>
+	<p class="para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<a href="http://www.google.com" id="link">Link takes you to google</a><hr>
+	<form>
+		<input type="text" placeholder="Fullname" class="form-input"><br>
+		<input type="text" placeholder="Phonenumber" class="form-input"><br>
+		<input type="emil" placeholder="Email" class="form-input"><br>
+		<textarea></textarea><br>
+		<button class="text">Submit</button>
+	</form>
+	<h2 class="subtitle">Contact-Us</h2>
+	<p class="para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
+
+
+body{
+	background: rgb(204, 229, 255);
+}
+#title{
+	color: rgb(186, 133, 9);
+	background: lightblue;
+}
+
+.subtitle{
+	color: rgb(219, 168, 50);
+}
+
+.para-text{
+	color: rgb(119, 156, 40);
+}
+.form-input{
+	color: rgb(156, 120, 30);
+}
+.text:hover{
+	color: rgb(110, 160, 100);
+}
+.list-item{
+	color: rgb(190, 170, 70);
+}
+#link: link{
+	color: rgb(130, 120, 80);
+}
+#link: link: visited{
+	color: rgb(130, 120, 80);
+}

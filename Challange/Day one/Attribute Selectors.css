@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Css challenge</title>
+</head>
+<body>
+	<h1 class="Subtitle">Adjacent sibiling selectors.</h1>
+	<a href="http://www.google.com" id="google"> Click here to go to google</a>
+	<ul>
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+	</ul>
+	<h1 class="Subtitle">Adjacent sibiling selectors.</h1>
+	<a href="http://www.Facebook.com" id="google"> Click here to go to Facebook</a>
+	<hr>
+	<ul>
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<ol>
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum<
+		</ol></ul>
+	<form>
+		<input type="text" placeholder="Fullname">
+		
+		<input type="email" placeholder="Email">
+		
+		<input type="text" placeholder="Phonenumber">
+		
+		<textarea></textarea>
+		 
+		<button>Submit</button>
+	</form><hr>
+	<h2>My Personal Car</h2>
+	<img src="img\car.jpg">
+	<hr>
+	<img src="img\bea.jpg">
+</body>
+</html>
+
+h1 + a{
+       color: red;
+}
+
+textarea + button{
+	color: blue;
+}
+
+ul > li {
+	color: blue;
+}
+
+ul li {
+	color: green;
+}
+
+h2 {
+	color: blue;
+}
+
+img[src*="/img/"] {
+	border: 10px solid black;
+}
+

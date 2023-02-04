@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Css challenge</title>
+</head>
+<body>
+	<h1 class="Subtitle" id="services"> SERVICES </h1>
+	<h1 class="hello"> ABOUT-US </h1>
+	<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h1>
+		<h1> proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h1>
+	<h1 class="hello"> ABOUT-US </h1>
+	<h1 class="Subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h1>
+	<a href="http://www.google.com" id="google"> Click here to go to google</a>
+	<hr>
+	<form>
+	<input type="text" placeholder="Fullname"><br><br>
+	<input type="email" placeholder="Email">
+	<p>Message</p>
+	<textarea></textarea><br>
+	<button>Submit</button>
+	</form>
+	<hr>
+	<ul>
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+		<li>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+	</ul>
+	<ul>
+		<ol><b>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</ol></b>
+	</ul>
+</body>
+</html>
+
+h1:  hover {
+	color: red;
+}
+
+.Subtitle {
+	color: green;
+}
+
+#services {
+	color: blue;
+}
+
+li:First-child {
+	color: blue;
+}
+
+li:last-child {
+	color: red;
+}
+
+li:nth-child(3) {
+	color: lightseagreen;
+}
+
+ol:only-child:hover {
+	color: purple;
+}
+
+#google-link:link {
+	color: black;
+}
+
+#google-link:visited {
+	color: yellow;
+}

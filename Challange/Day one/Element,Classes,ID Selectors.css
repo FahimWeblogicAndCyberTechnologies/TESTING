@@ -1,0 +1,30 @@
+HTML
+ELEMENT SELECTORS
+<h1> A heading </h1>
+<p> some text </p>
+<h1> Another Heading </h1>
+
+CSS
+P {
+   color:red;
+   }
+
+HTML 
+CLASS SELECTORS
+<h2 class="aclass" Subheading  </h2>
+<p class="aclass"> some text </p>
+
+CSS
+.aclass {
+        color:blue;
+        }
+HTML
+ID SELECTORS
+<P id="some text"> Hello World </p>
+<p id="sometext"> Fuck You </p>
+
+CSS
+#sometext {
+          color:yellow;
+           }
+

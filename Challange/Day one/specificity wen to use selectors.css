@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Css challenge</title>
+</head>
+<body>
+	<h1 class="Subtitle" id="services" style="color: steelblue;">services. </h1>
+	<h1 class="hello"> ABOUT-US </h1>
+	<form>
+	<input type="text" placeholder="Fullname"><br><br>
+	<input type="email" placeholder="Email">
+	<p>Message</p>
+	<textarea></textarea><br>
+	<button>Submit</button>
+	</form>
+	<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h1>
+		<h1> proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h1>
+	<h1 class="hello"> ABOUT-US </h1>
+	<form>
+	<input type="text" placeholder="Lastname"><br><br>
+	<input type="text" placeholder="Phonenumber">
+	<p>Message</p>
+	<textarea></textarea><br>
+	<button>Submit</button>
+	</form>
+	<h1 class="Subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h1>
+</body>
+
+h1 {
+	color: red;
+}
+
+.Subtitle {
+	color: green;
+}
+
+#services {
+	color: blue;
+}

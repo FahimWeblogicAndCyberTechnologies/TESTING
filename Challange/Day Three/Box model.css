@@ -1,0 +1,31 @@
+changing content style
+#about-us-image {
+     height: 300px;
+     width: 60px;
+}
+
+CSS BOX
+border:size, style,color;
+.boss {
+     border: 2px solid red;
+solid
+dotted
+dashed
+double
+}
+
+MARGIN
+#hello {
+       margin: 40px 20px 10px 0;
+top
+left
+right
+bottom
+}
+
+PADDING
+.text {
+      padding: 100px 80px 60px 0;
+}
+
+                
